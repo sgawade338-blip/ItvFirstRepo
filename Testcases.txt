@@ -1,0 +1,8 @@
+TC Id	TC Objective	Precondition	Steps	Test Data	Expected Result
+TC_Select_Personal details_Contact_01	To Verify functionality dropdown without selection contact details data	User must be logged in contact page data Dropdown is required	1. Do not select value2. Submit form		Contact data should No selection
+TC_Select_Personal details_Contact_02	To Verify functionality dropdown default value selection contact details data	User must be logged in contact page data Dropdown loaded	1. Open page		Contact data should be Default value
+TC_Save_Personal details_Contact_03	To Verify functionality Save button saves valid data	User must be on form page	1. Enter valid data2. Click Save		Contact data should be Valid inputs
+TC_Save_Personal details_Contact_04	To Verify functionality Save button updates existing record	User must be Existing data present	1. Modify data2. Click Save		Contact data should be Updated data
+TC_Save_Personal details_Contact_05	To Verify Save button with empty fields	User must be is on form page	1. Leave fields blank2. Click Save		Contact data should be Empty data format
+TC_Reset_Personal details_Contact_06	To Verify Reset button clears all fields	User Must be entered data	1. Enter data2. Click Reset		Any data should be reset 
+TC_Reset_Personal details_Contact_07	To Verify Reset button with no data	User must be Form is empty	1. Click Reset		No data should be reset
